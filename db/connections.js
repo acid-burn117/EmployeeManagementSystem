@@ -1,6 +1,6 @@
-const mysql = require("mysql12");
+const mysql = require("mysql2");
 
-const connection = mysql.createconnection({
+const connection = mysql.createConnection({
     host: "localhost",
     user: "root",
     password: "Passw0rd!",
@@ -11,4 +11,4 @@ connection.connect(function (err) {
     if (err) throw err;
 });
 
-modules.export = connection;
+module.exports = connection;

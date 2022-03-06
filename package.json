@@ -1,0 +1,26 @@
+{
+  "name": "employeemanagementsystem",
+  "version": "1.0.0",
+  "description": "command-line application to manage employees",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acid-burn117/EmployeeManagementSystem.git"
+  },
+  "author": "Douglas Osorio",
+  "license": "ISC",
+  "dependencies": {
+    "asciiart-logo": "^0.2.6",
+    "console.table": "^0.10.0",
+    "inquirer": "^8.2.0",
+    "mysql2": "^2.3.3"
+  },
+  "bugs": {
+    "url": "https://github.com/acid-burn117/EmployeeManagementSystem/issues"
+  },
+  "homepage": "https://github.com/acid-burn117/EmployeeManagementSystem#readme"
+}
